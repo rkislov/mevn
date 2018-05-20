@@ -1,6 +1,8 @@
 import Posts from '@/components/pages/PostsPage'
 import NewPost from '@/components/pages/NewPostPage'
 import EditPost from '@/components/pages/EditPostPage'
+import Login from '@/components/pages/auth/LoginPage'
+import Register from '@/components/pages/auth/RegisterPage'
 
 const routes = [
   {
@@ -17,6 +19,11 @@ const routes = [
     path: '/post/:id',
     name: 'EditPost',
     component: EditPost
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: Login
   }
 
 ]

@@ -4,6 +4,7 @@ const cors = require('cors')
 const morgan = require('morgan')
 const config = require('./config/config')
 const mongoose = require('mongoose')
+const auth = require('./routes/auth')
 
 const app = express()
 mongoose.Promise = global.Promise
